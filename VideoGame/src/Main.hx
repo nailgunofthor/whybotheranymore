@@ -4,7 +4,6 @@ import openfl.display.Sprite;
 import openfl.Lib;
 
 /**
- * ...
  * @author Jacob
  * @author Tara
  */
