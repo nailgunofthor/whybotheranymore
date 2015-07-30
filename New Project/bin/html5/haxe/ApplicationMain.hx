@@ -95,7 +95,7 @@ class ApplicationMain {
 		config = {
 			
 			antialiasing: Std.int (0),
-			background: Std.int (1032910),
+			background: Std.int (16761550),
 			borderless: false,
 			company: "Tara Moses",
 			depthBuffer: false,
@@ -117,7 +117,7 @@ class ApplicationMain {
 		
 		#if (js && html5)
 		#if (munit || utest)
-		openfl.Lib.embed (null, 800, 480, "0FC2CE");
+		openfl.Lib.embed (null, 800, 480, "FFC2CE");
 		#end
 		#else
 		create ();

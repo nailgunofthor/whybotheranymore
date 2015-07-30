@@ -48,7 +48,7 @@ ApplicationMain.init = function() {
 	if(total == 0) ApplicationMain.start();
 };
 ApplicationMain.main = function() {
-	ApplicationMain.config = { antialiasing : 0, background : 1032910, borderless : false, company : "Tara Moses", depthBuffer : false, file : "FancyTutorial", fps : 60, fullscreen : false, hardware : true, height : 480, orientation : "", packageName : "FancyTutorial", resizable : true, stencilBuffer : true, title : "FancyTutorial", version : "1.0.0", vsync : false, width : 800};
+	ApplicationMain.config = { antialiasing : 0, background : 16761550, borderless : false, company : "Tara Moses", depthBuffer : false, file : "FancyTutorial", fps : 60, fullscreen : false, hardware : true, height : 480, orientation : "", packageName : "FancyTutorial", resizable : true, stencilBuffer : true, title : "FancyTutorial", version : "1.0.0", vsync : false, width : 800};
 };
 ApplicationMain.start = function() {
 	var hasMain = false;
@@ -1540,7 +1540,7 @@ NMEPreloader.__name__ = ["NMEPreloader"];
 NMEPreloader.__super__ = openfl.display.Sprite;
 NMEPreloader.prototype = $extend(openfl.display.Sprite.prototype,{
 	getBackgroundColor: function() {
-		return 1032910;
+		return 16761550;
 	}
 	,getHeight: function() {
 		var height = 480;
