@@ -34,22 +34,6 @@ class ApplicationMain {
 		var types = [];
 		
 		
-		urls.push ("img/hungryTaraIcon.png");
-		types.push (lime.Assets.AssetType.IMAGE);
-		
-		
-		urls.push ("img/pizzaIcon.png");
-		types.push (lime.Assets.AssetType.IMAGE);
-		
-		
-		urls.push ("img/shipIcon.png");
-		types.push (lime.Assets.AssetType.IMAGE);
-		
-		
-		urls.push ("img/tinymap.png");
-		types.push (lime.Assets.AssetType.IMAGE);
-		
-		
 		
 		if (config.assetsPrefix != null) {
 			
@@ -111,7 +95,7 @@ class ApplicationMain {
 		config = {
 			
 			antialiasing: Std.int (0),
-			background: Std.int (16761550),
+			background: Std.int (1032910),
 			borderless: false,
 			company: "Tara Moses",
 			depthBuffer: false,
@@ -133,7 +117,7 @@ class ApplicationMain {
 		
 		#if (js && html5)
 		#if (munit || utest)
-		openfl.Lib.embed (null, 800, 480, "FFC2CE");
+		openfl.Lib.embed (null, 800, 480, "0FC2CE");
 		#end
 		#else
 		create ();

@@ -19,3 +19,4 @@
 -swf bin/flash/bin/FancyTutorial.swf
 -swf-header 800:480:60:FFC2CE
 -cp bin/flash/haxe
+-D final

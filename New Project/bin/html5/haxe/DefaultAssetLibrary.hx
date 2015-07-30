@@ -50,35 +50,11 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		#if flash
 		
-		className.set ("img/hungryTaraIcon.png", __ASSET__img_hungrytaraicon_png);
-		type.set ("img/hungryTaraIcon.png", AssetType.IMAGE);
-		className.set ("img/pizzaIcon.png", __ASSET__img_pizzaicon_png);
-		type.set ("img/pizzaIcon.png", AssetType.IMAGE);
-		className.set ("img/shipIcon.png", __ASSET__img_shipicon_png);
-		type.set ("img/shipIcon.png", AssetType.IMAGE);
-		className.set ("img/tinymap.png", __ASSET__img_tinymap_png);
-		type.set ("img/tinymap.png", AssetType.IMAGE);
 		
 		
 		#elseif html5
 		
 		var id;
-		id = "img/hungryTaraIcon.png";
-		path.set (id, id);
-		
-		type.set (id, AssetType.IMAGE);
-		id = "img/pizzaIcon.png";
-		path.set (id, id);
-		
-		type.set (id, AssetType.IMAGE);
-		id = "img/shipIcon.png";
-		path.set (id, id);
-		
-		type.set (id, AssetType.IMAGE);
-		id = "img/tinymap.png";
-		path.set (id, id);
-		
-		type.set (id, AssetType.IMAGE);
 		
 		
 		var assetsPrefix = ApplicationMain.config.assetsPrefix;
@@ -93,27 +69,11 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#if openfl
 		
 		
-		
-		
-		
-		
 		#end
 		
 		#if (windows || mac || linux)
 		
 		var useManifest = false;
-		
-		className.set ("img/hungryTaraIcon.png", __ASSET__img_hungrytaraicon_png);
-		type.set ("img/hungryTaraIcon.png", AssetType.IMAGE);
-		
-		className.set ("img/pizzaIcon.png", __ASSET__img_pizzaicon_png);
-		type.set ("img/pizzaIcon.png", AssetType.IMAGE);
-		
-		className.set ("img/shipIcon.png", __ASSET__img_shipicon_png);
-		type.set ("img/shipIcon.png", AssetType.IMAGE);
-		
-		className.set ("img/tinymap.png", __ASSET__img_tinymap_png);
-		type.set ("img/tinymap.png", AssetType.IMAGE);
 		
 		
 		if (useManifest) {
@@ -805,17 +765,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 #if !display
 #if flash
 
-@:keep @:bind #if display private #end class __ASSET__img_hungrytaraicon_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__img_pizzaicon_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__img_shipicon_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__img_tinymap_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 
 
 #elseif html5
-
-
-
-
 
 
 
@@ -826,10 +778,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 #if (windows || mac || linux)
 
 
-@:image("assets/img/hungryTaraIcon.png") #if display private #end class __ASSET__img_hungrytaraicon_png extends lime.graphics.Image {}
-@:image("assets/img/pizzaIcon.png") #if display private #end class __ASSET__img_pizzaicon_png extends lime.graphics.Image {}
-@:image("assets/img/shipIcon.png") #if display private #end class __ASSET__img_shipicon_png extends lime.graphics.Image {}
-@:image("assets/img/tinymap.png") #if display private #end class __ASSET__img_tinymap_png extends lime.graphics.Image {}
 
 
 

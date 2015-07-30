@@ -56,7 +56,7 @@ class NMEPreloader extends Sprite {
 	
 	public function getBackgroundColor ():Int {
 		
-		return 16761550;
+		return 1032910;
 		
 	}
 	
